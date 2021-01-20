@@ -1,0 +1,12 @@
+<h2>Countdown Timer Happy New year 2021</h2>
+
+<div class="group-actions">
+  <button (click)="start()"class="btn btn-outline-success">Start</button>
+  <button (click)="stop()" class="btn btn-outline-danger">Stop</button>
+  <button (click)="reset()"class="btn btn-warning">Reset</button>
+</div>
+<div class="timer">
+  <span class="timer-text">{{ remainingTime }}</span>
+</div>
+<p>{{ message }}</p>
+
